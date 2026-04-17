@@ -25,11 +25,5 @@ The dataset consists of approximately 7,000 clinically categorized MRI images ac
    * **Integrated Gradients:** Utilized for mathematically rigorous pixel-level attribution, ensuring completeness and overcoming the vanishing gradient problem often seen in deep CNNs.
 
 ## 📈 Key Findings
-While all models achieved >90% classification accuracy, their interpretability profiles varied significantly:
-* **DenseNet-121** demonstrated the highest clinical reliability. Its highly connected architecture resulted in Integrated Gradient heatmaps that tightly encapsulated the pathological mass.
-* **ResNet-50**, despite high accuracy, occasionally displayed "attribution bleed," relying on non-pathological background artifacts (e.g., skull structure) for its predictions, rendering it less clinically trustworthy.
+* **ResNet-50(93.69% Accuracy)**, demonstrated the highest clinical reliability. Its highly connected architecture resulted in Integrated Gradient heatmaps that tightly encapsulated the pathological mass.
 
-### Visual Proof of Interpretability
-> **[⚠️ Note to Author: Insert a screenshot here. Show 1 Original MRI side-by-side with its Grad-CAM output and its Integrated Gradients output]**
-
-*Figure 1: Comparison of Integrated Gradients (left) vs. Grad-CAM (right) on a Pituitary Tumor slice. Notice the refined localization provided by the DenseNet architecture.*
