@@ -25,5 +25,5 @@ The dataset consists of approximately 7,000 clinically categorized MRI images ac
    * **Integrated Gradients:** Utilized for mathematically rigorous pixel-level attribution, ensuring completeness and overcoming the vanishing gradient problem often seen in deep CNNs.
 
 ## 📈 Key Findings
-* **ResNet-50**(93.69% Accuracy), demonstrated the highest clinical reliability. Its highly connected architecture resulted in Integrated Gradient heatmaps that tightly encapsulated the pathological mass.
+* **ResNet-50 ResNet-50 — Accuracy: 93.69%:**, Demonstrated peak clinical reliability. The model's highly connected architecture generated Integrated Gradient heatmaps with tight encapsulation of the pathological mass.
 
